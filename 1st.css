@@ -1,0 +1,68 @@
+.box a {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box a span {
+  font-weight: 400;
+  font-size: 35px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+  width: 600px;
+  height: 400px;
+  background: rgba(225, 225, 225, 0.301);
+  box-shadow: 0 4px 10px rgba(5, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(15px);
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #ff2962c7;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin-right: 23px;
+  margin-top: 100px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
